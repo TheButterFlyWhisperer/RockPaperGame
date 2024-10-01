@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rock paper scissors</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+
+    <div class ="button-container">
+    <button onclick="playGame('rock')"><img src = "https://www.pngrepo.com/png/398225/512/rock.png" alt="Rock" width="85px" height="85px"></button>
+    <button onclick="playGame('paper')"><img src = "https://th.bing.com/th/id/R.2a4fef0558a650b869cd9f8d626cfcdf?rik=p%2fbh08GlgqrbbA&riu=http%3a%2f%2fclipart-library.com%2fimg%2f878063.png&ehk=vFbGrjXKYaoDKKgrReRDP51Aum1dQKXbvUdfJ9ZVSFc%3d&risl=&pid=ImgRaw&r=0" alt="Paper" width="85px" height="85px"></button>
+    <button onclick="playGame('scissors')"><img src = "https://th.bing.com/th/id/R.57f0f4d4972742fc2b8cbff5a02f665d?rik=NWukcxIjGM1X4w&riu=http%3a%2f%2fclipartsign.com%2fupload%2f2016%2f01%2f28%2ftransparent-scissors-clipart-picture-3.png&ehk=UOQQsInuANdiI6PkmwMUtzHAdiXZL8SOm%2bHuGfhc5Nw%3d&risl=&pid=ImgRaw&r=0" alt="Scissors" width="85px" height="85px"></button>
+    </div>
+
+    <div id ="playertext">Player:</div>
+    <div id ="computertext">Computer:</div>
+    <div id ="resulttext"></div>
+
+    <div id ="scoretext"></div> 
+
+    <style>
+        button{
+            width: 200px;
+            height: 90px;
+            font-size: 20px;
+            margin: 10px;
+        }
+    </style>
+    
+    <script src="styles.js"></script>
+</body>
+</html>
